@@ -216,7 +216,7 @@ Skills are optional global procedures. They are **not** dumped into the system p
 | `skill_read` | Load one skill body by slug. |
 | `skill_write` | Save a user skill under `~/.g023v2/skills/<slug>/SKILL.md`. Does not overwrite bundled files. |
 
-Shipped bundled slugs: `grok-cli`, `picture-book-with-grok`, `grok-build`, `fetch-web`, `skill-authoring`. A user skill of the same slug shadows the bundled one. Workers may search, read, and write (these are base tools).
+Shipped bundled slugs: `skill-authoring`. A user skill of the same slug shadows the bundled one. Workers may search, read, and write (these are base tools).
 
 ### Web and memory
 
